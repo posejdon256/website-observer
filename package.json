@@ -1,0 +1,26 @@
+{
+  "name": "website-observer",
+  "version": "1.4.1",
+  "description": "application which observe html element and ping when it changes",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-dynamic-import": "^1.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "diff": "^5.0.0",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.1.2",
+    "nodemailer": "^6.5.0"
+  },
+  "keywords": ["website", "web", "pinger", "observer", "javascript"],
+  "devDependencies": {},
+  "scripts": {
+    "test": "start",
+    "build": "babel webpinger.js"
+  },
+  "author": "Anna Winiarczuk",
+  "license": "ISC"
+}
